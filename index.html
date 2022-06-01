@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        
+        <header>
+            <h1>Generate a <br id="br"><span>random password</span></h1>
+            
+            <p id="never">Never use an insecure password again.</p>
+            <button id="generateBtn" onclick="generatePassword()"> <span id="lightningBolt">➪</span>Generate passwords</button>
+        </header> 
+
+        <hr>
+        
+        <section>
+            <div id="firstLine">
+                <p id="first">Your password will appear here</p>
+                <button id="firstBtn" onclick="copiarFirstBtn()">Copiar</button>
+                <p id="second">Your password will appear here</p>
+                <button id="secondBtn" onclick="copiarSecondBtn()">Copiar</button>
+            </div>
+
+            <div id="secondLine">
+                <p id="third">Your password will appear here</p>
+                <button id="thirdBtn" onclick="copiarThirdBtn()">Copiar</button>
+                <p id="forth">Your password will appear here</p>
+                <button id="forthBtn" onclick="copiarForthBtn()">Copiar</button>
+            </div>
+        </section>
+        
+    </main>
+    
+    <script src="script.js"></script>
+
+    
+
+</body>
+</html>
