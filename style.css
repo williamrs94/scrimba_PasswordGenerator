@@ -35,8 +35,12 @@ html {
       justify-content: center;
       text-align: center;
       margin: 0 0rem;
-      font-size: 1rem;
     }
+
+    #first, #second, #third, #forth {
+      word-break: break-all; /* para as senhas, quando geradas, não saírem da tela do celular */
+    }
+    
   }
 
 body {
